@@ -1,26 +1,23 @@
 {
-  "name": "videojs-record",
-  "version": "3.9.0",
-  "description": "A video.js plugin for recording audio/video/image files.",
-  "author": "Collab",
+  "name": "@caiqueportela/videojs-record",
+  "version": "1.0.0",
+  "description": "A video.js plugin for recording audio/video/image files. A fork from https://github.com/caiqueportela/videojs-record.",
+  "author": "Caique Portela",
   "license": "MIT",
-  "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/collab-project/videojs-record/issues"
+    "url": "https://github.com/caiqueportela/videojs-record/issues"
   },
-  "homepage": "https://github.com/collab-project/videojs-record",
+  "homepage": "https://github.com/caiqueportela/videojs-record",
   "main": "dist/videojs.record.js",
   "style": "dist/css/videojs.record.css",
   "sass": "src/css/videojs.record.scss",
   "directories": {
-    "doc": "./docs",
-    "lib": "./src",
-    "example": "./examples",
-    "test": "./test"
+    "example": "examples",
+    "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/collab-project/videojs-record.git"
+    "url": "git+https://github.com/caiqueportela/videojs-record.git"
   },
   "scripts": {
     "clean": "rimraf dist docs",
@@ -72,6 +69,7 @@
     "opus"
   ],
   "dependencies": {
+    "@types/video.js": "^7.3.3",
     "recordrtc": ">=5.5.8",
     "video.js": ">=6.2.7",
     "videojs-wavesurfer": ">=2.11.0 <3",

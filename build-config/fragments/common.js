@@ -41,7 +41,7 @@ module.exports = {
     // environment during runtime.
     externals: [
         // mandatory
-        {'video.js': 'videojs'},
+        {'video.js': 'video.js'},
         // optional
         {'wavesurfer.js': 'WaveSurfer'},
         {'recordrtc': 'RecordRTC'}
