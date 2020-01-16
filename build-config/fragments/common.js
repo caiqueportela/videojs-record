@@ -43,8 +43,8 @@ module.exports = {
         // mandatory
         {'video.js': 'video.js'},
         // optional
-        {'wavesurfer.js': 'WaveSurfer'},
-        {'recordrtc': 'RecordRTC'}
+        {'wavesurfer.js': 'wavesurfer.js'},
+        {'recordrtc': 'recordrtc'}
     ],
     module: {
         rules: [
